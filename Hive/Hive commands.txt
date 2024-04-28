@@ -1,0 +1,10 @@
+##Basic Hive commands
+
+#To create a table like another existing table
+
+CREATE EXTERNAL TABLE DB.NEW_TABLE LIKE DB.EXISTING_TABLE;
+
+#Insert data into table from existing table
+
+INSERT INTO DB.NEW_TABLE SELECT * FROM DB.EXISTING_TABLE;
+
