@@ -1,2 +1,7 @@
 ## To get the list of corrupt blocks in hdfs
+
 hdfs fsck / -list-corruptfileblocks
+
+## Delete
+
+hdfs dfs -rmr -r -skipTrash
