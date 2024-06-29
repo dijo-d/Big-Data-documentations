@@ -1,0 +1,2 @@
+## To get the list of corrupt blocks in hdfs
+hdfs fsck / -list-corruptfileblocks
