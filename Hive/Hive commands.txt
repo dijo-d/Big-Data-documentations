@@ -15,3 +15,7 @@ MSCK REPAIR DB.TABLE;
 #Sync up metadata
 
 INVALIDATE METADATA;
+
+alter table ekuber.FACT_GSEC_OUTSTANDING SUMMARY set tblproperties (EXTERNAL='FALSE')
+
+alter table ekuber.FACT_GSEC_OUTSTANDING SUMMARY set tblproperties (EXTERNAL='TRUE')
