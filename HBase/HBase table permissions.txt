@@ -1,1 +1,3 @@
 ## Setting HBase table permissions
+
+grant 'user','permission','table_name'
